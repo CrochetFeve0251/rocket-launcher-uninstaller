@@ -1,9 +1,9 @@
 <?php
 
-use RocketLauncherUninstaller\Tests\Fixtures\inc\Uninstall\Uninstall\classes\UninstallerServiceProvider;
-use RocketLauncherUninstaller\Tests\Fixtures\inc\Uninstall\Uninstall\classes\ServiceProvider;
-use RocketLauncherUninstaller\Tests\Fixtures\inc\Uninstall\Uninstall\classes\VisibleServiceProvider;
-use RocketLauncherUninstaller\Uninstall\UninstallerInterface;
+use LaunchpadUninstaller\Tests\Fixtures\inc\Uninstall\Uninstall\classes\UninstallerServiceProvider;
+use LaunchpadUninstaller\Tests\Fixtures\inc\Uninstall\Uninstall\classes\ServiceProvider;
+use LaunchpadUninstaller\Tests\Fixtures\inc\Uninstall\Uninstall\classes\VisibleServiceProvider;
+use LaunchpadUninstaller\Uninstall\UninstallerInterface;
 
 
 $uninstaller = Mockery::mock(UninstallerInterface::class);

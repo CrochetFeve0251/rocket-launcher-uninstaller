@@ -1,6 +1,6 @@
 {
-  "name": "crochetfeve0251/rocket-launcher-uninstaller",
-  "description": "Uninstaller from Rocket launcher",
+  "name": "wp-launchpad/uninstaller",
+  "description": "Uninstaller from Launchpad framework",
   "keywords": [
     "wordpress"
   ],
@@ -12,16 +12,16 @@
   ],
   "autoload": {
     "psr-4": {
-      "RocketLauncherUninstaller\\": "inc/"
+      "LaunchpadUninstaller\\": "inc/"
     }
   },
   "autoload-dev": {
     "psr-4": {
-      "RocketLauncherUninstaller\\Tests\\": "tests/"
+      "LaunchpadUninstaller\\Tests\\": "tests/"
     }
   },
   "require": {
-    "crochetfeve0251/rocket-launcher-core": "0.0.*"
+    "wp-launchpad/core": "0.0.*"
   },
   "require-dev": {
     "wp-media/phpunit": "^3.0"

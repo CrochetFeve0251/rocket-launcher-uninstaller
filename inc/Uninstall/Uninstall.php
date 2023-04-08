@@ -1,5 +1,5 @@
 <?php
-namespace RocketLauncherUninstaller\Uninstall;
+namespace LaunchpadUninstaller\Uninstall;
 
 use Psr\Container\ContainerInterface;
 

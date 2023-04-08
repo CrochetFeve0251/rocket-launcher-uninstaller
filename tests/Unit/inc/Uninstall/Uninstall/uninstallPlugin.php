@@ -1,11 +1,11 @@
 <?php
 
-namespace RocketLauncherUninstaller\Tests\Unit\inc\Uninstall\Uninstall;
+namespace LaunchpadUninstaller\Tests\Unit\inc\Uninstall\Uninstall;
 
 use League\Container\Container;
 use Mockery;
-use RocketLauncherUninstaller\Tests\Unit\TestCase;
-use RocketLauncherUninstaller\Uninstall\Uninstall;
+use LaunchpadUninstaller\Tests\Unit\TestCase;
+use LaunchpadUninstaller\Uninstall\Uninstall;
 
 class Test_UninstallPlugin extends TestCase
 {

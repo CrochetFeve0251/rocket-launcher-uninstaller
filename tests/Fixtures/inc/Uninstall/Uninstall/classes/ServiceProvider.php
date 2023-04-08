@@ -1,8 +1,8 @@
 <?php
 
-namespace RocketLauncherUninstaller\Tests\Fixtures\inc\Uninstall\Uninstall\classes;
+namespace LaunchpadUninstaller\Tests\Fixtures\inc\Uninstall\Uninstall\classes;
 
-use RocketLauncherCore\Container\AbstractServiceProvider;
+use LaunchpadCore\Container\AbstractServiceProvider;
 
 class ServiceProvider extends AbstractServiceProvider
 {

@@ -1,6 +1,6 @@
 <?php
 
-namespace RocketLauncherUninstaller\Uninstall;
+namespace LaunchpadUninstaller\Uninstall;
 
 interface HasUninstallerServiceProviderInterface extends UninstallServiceProviderInterface
 {

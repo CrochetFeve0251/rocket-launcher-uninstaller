@@ -1,6 +1,6 @@
 <?php
 
-namespace RocketLauncherUninstaller\Tests\Unit;
+namespace LaunchpadUninstaller\Tests\Unit;
 
 use ReflectionObject;
 use WPMedia\PHPUnit\Unit\TestCase as BaseTestCase;

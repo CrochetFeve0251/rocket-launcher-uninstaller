@@ -1,9 +1,9 @@
 <?php
 
-namespace RocketLauncherUninstaller\Tests\Fixtures\inc\Uninstall\Uninstall\classes;
+namespace LaunchpadUninstaller\Tests\Fixtures\inc\Uninstall\Uninstall\classes;
 
-use RocketLauncherCore\Container\AbstractServiceProvider;
-use RocketLauncherUninstaller\Uninstall\HasUninstallerServiceProviderInterface;
+use LaunchpadCore\Container\AbstractServiceProvider;
+use LaunchpadUninstaller\Uninstall\HasUninstallerServiceProviderInterface;
 
 class UninstallerServiceProvider extends AbstractServiceProvider implements HasUninstallerServiceProviderInterface
 {

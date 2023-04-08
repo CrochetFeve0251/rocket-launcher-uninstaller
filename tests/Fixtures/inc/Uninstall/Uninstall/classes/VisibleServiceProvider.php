@@ -1,10 +1,9 @@
 <?php
 
-namespace RocketLauncherUninstaller\Tests\Fixtures\inc\Uninstall\Uninstall\classes;
+namespace LaunchpadUninstaller\Tests\Fixtures\inc\Uninstall\Uninstall\classes;
 
-use RocketLauncherCore\Container\AbstractServiceProvider;
-use RocketLauncherCore\Activation\ActivationServiceProviderInterface;
-use RocketLauncherUninstaller\Uninstall\UninstallServiceProviderInterface;
+use LaunchpadCore\Container\AbstractServiceProvider;
+use LaunchpadUninstaller\Uninstall\UninstallServiceProviderInterface;
 
 class VisibleServiceProvider extends AbstractServiceProvider implements UninstallServiceProviderInterface
 {
