@@ -40,6 +40,13 @@ class Uninstall
             return $provider;
         });
 
+        $providers = array_map(function ($provider) {
+            if(is_string($provider)) {
+                return new $provider();
+            }
+            return $provider;
+        }, $providers);
+
         foreach ($providers as $provider) {
             self::$container->addServiceProvider($provider);
         }
